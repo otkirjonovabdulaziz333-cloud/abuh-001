@@ -1,0 +1,1250 @@
+{
+  "session": {
+    "id": "primary",
+    "apiId": 33510851,
+    "encryptedApiHash": "3cfebc3bd59de0ab188280aa:f8171fdce7dc4f5f323e61901403be77:2ba4679eb78a0675b56174e47e0a5d151a2c95c9918e800665a24529f6915568",
+    "encryptedSessionStr": "92e93454cb23fc4a79b7233d:3ae9494870ab6043afe9c339f402f325:501ba2f0412495738268931c86068290bcef909b58834a63f963797dca2eeccd1ca55cfe59ba8f60580aeda769649614d7f5c1bf0be7f97de7070778e7041b7f0da44f67a2e20fea5853294a4ed1a5427c2ec6aaac9a4c5381d74b4dff44376047b4319df48100c33e6f7069c5bf139e062864f48672cf9db77295c87d3a135836fbc4fe99a3ac9ef1b1a6248f8d33ae5d83af72a529c04beaaac49ecab9c5dfc2bb6c628ee6721027d5ea9a7336d29c5b5e23ed4fdc91f5eb9f34b287fa5713a465b03c0dc4c6b15f450b6b68a2b38fd4f1fffed82c7b6059c70e9355f9d94b84bb4956df336caa892668191f8d05d3294aa54fdb02b09289f90d53b50d433c5bb3822d63df21cd983d6cabc4ab6add2dcd9e04fcd48d2460cf5b7ff8fa91548c0c4eb095ca2f681ff062fde4db4151ea0cfda0996d1a84eb238244748856a05d5f0c0bc061b78b3bca58e10f09bd69f0ca2575c6d07aeb55b8beaa8ab06728667c4fe0589ab7cfddf99e514c843772f8",
+    "phoneNumber": "+998 936590110",
+    "username": null,
+    "firstName": "Abdulaziz",
+    "telegramUserId": "121708923",
+    "status": "CONNECTED",
+    "mode": "LIVE_MTPROTO",
+    "lastOnlinePingAt": "2026-10-26T15:55:09.964Z",
+    "nextOnlinePingAt": "2026-10-26T15:55:53.206Z",
+    "createdAt": "2026-10-22T12:51:04.612Z",
+    "updatedAt": "2026-10-26T06:47:45.311Z"
+  },
+  "safetyConfig": {
+    "id": "default",
+    "autoReplyEnabled": true,
+    "emergencyStop": false,
+    "online247Enabled": true,
+    "maxRepliesPerHour": 15,
+    "minDelayMs": 4000,
+    "maxDelayMs": 9000,
+    "minTypingMs": 2000,
+    "maxTypingMs": 4000,
+    "minOnlineIntervalSec": 40,
+    "maxOnlineIntervalSec": 55,
+    "replyCooldownMode": "NEVER",
+    "ignoreGroupsAndChannels": true,
+    "ignoreBotsAndService": true,
+    "ignoreForwardedMessages": true,
+    "updatedAt": "2026-10-26T06:47:55.623Z",
+    "pauseWhenOwnerOnline": true
+  },
+  "segments": [
+    {
+      "id": "seg-general",
+      "name": "General Public",
+      "slug": "general",
+      "description": "Default auto-reply message for everyone who writes to you in private.",
+      "template": "Assalomu alaykum, {{first_name}}! Xabaringiz uchun rahmat. Hozir tarmoqda bandman, bo‘shaganimda xabaringizni ko‘rib chiqaman. (Avto-javob)",
+      "isIgnored": false,
+      "badgeColor": "sky",
+      "priority": 3,
+      "enabled": true,
+      "createdAt": "2026-10-22T12:51:04.612Z",
+      "updatedAt": "2026-10-22T12:51:04.612Z"
+    },
+    {
+      "id": "seg-vip",
+      "name": "VIP / Yaqinlar",
+      "slug": "vip",
+      "description": "Close family & VIP contacts in Tanlangan Odamlar.",
+      "template": "Assalomu alaykum, {{first_name}}! Hozir biroz band edim, lekin xabaringizni ko‘rdim — bo‘shashim bilan birinchi bo‘lib sizga aloqaga chiqaman.",
+      "isIgnored": false,
+      "badgeColor": "emerald",
+      "priority": 1,
+      "enabled": true,
+      "createdAt": "2026-10-22T12:51:04.612Z",
+      "updatedAt": "2026-10-22T13:19:42.540Z"
+    },
+    {
+      "id": "seg-clients",
+      "name": "Mijozlar",
+      "slug": "clients",
+      "description": "Business clients in Tanlangan Odamlar.",
+      "template": "Assalomu alaykum, hurmatli {{first_name}}! Murojaatingiz qabul qilindi. Yaqin orada javob yozaman.",
+      "isIgnored": false,
+      "badgeColor": "indigo",
+      "priority": 2,
+      "enabled": true,
+      "createdAt": "2026-10-22T12:51:04.612Z",
+      "updatedAt": "2026-10-22T12:51:04.612Z"
+    },
+    {
+      "id": "seg-blacklist",
+      "name": "Blacklist",
+      "slug": "blacklist",
+      "description": "Ignored contacts (never receives an auto-reply).",
+      "template": "",
+      "isIgnored": true,
+      "badgeColor": "rose",
+      "priority": 0,
+      "enabled": true,
+      "createdAt": "2026-10-22T12:51:04.612Z",
+      "updatedAt": "2026-10-22T12:51:04.612Z"
+    }
+  ],
+  "contacts": [
+    {
+      "id": "cnt-3791e9db",
+      "telegramUserId": "sarvar",
+      "username": "Sirojov_Sarvar",
+      "firstName": "SH",
+      "lastName": null,
+      "phone": null,
+      "segmentId": "seg-vip",
+      "customTemplate": null,
+      "isPaused": false,
+      "notes": null,
+      "createdAt": "2026-10-22T14:05:14.956Z",
+      "updatedAt": "2026-10-22T14:06:00.397Z"
+    }
+  ],
+  "repliedHistory": [
+    {
+      "id": "rep-cf07054d",
+      "telegramUserId": "6866328771",
+      "username": "nexa1re",
+      "firstName": "Sh",
+      "repliedAt": "2026-10-26T15:42:37.871Z",
+      "ruleMatched": "VIP / Yaqinlar",
+      "lastReplyText": "Assalomu alaykum, Sh! Hozir biroz band edim, lekin xabaringizni ko‘rdim — bo‘shashim bilan birinchi bo‘lib sizga aloqaga chiqaman.",
+      "replyCount": 1
+    },
+    {
+      "id": "rep-82c3b4e7",
+      "telegramUserId": "5471528223",
+      "username": "aloxoja_03_07",
+      "firstName": "A'loxo'ja prime😮‍💨",
+      "repliedAt": "2026-10-26T14:18:28.064Z",
+      "ruleMatched": "General Public",
+      "lastReplyText": "Assalomu alaykum, A'loxo'ja prime😮‍💨! Xabaringiz uchun rahmat. Hozir tarmoqda bandman, bo‘shaganimda xabaringizni ko‘rib chiqaman. (Avto-javob)",
+      "replyCount": 1
+    },
+    {
+      "id": "rep-51245743",
+      "telegramUserId": "8266799541",
+      "username": "YTUmar",
+      "firstName": "Umar Shomurodov",
+      "repliedAt": "2026-10-26T06:50:49.668Z",
+      "ruleMatched": "General Public",
+      "lastReplyText": "Assalomu alaykum, Umar Shomurodov! Xabaringiz uchun rahmat. Hozir tarmoqda bandman, bo‘shaganimda xabaringizni ko‘rib chiqaman. (Avto-javob)",
+      "replyCount": 1
+    },
+    {
+      "id": "rep-77825763",
+      "telegramUserId": "1902572054",
+      "username": "UASayfiddinov2013",
+      "firstName": "°-° Sayfiddinov Ulug'bek °-°",
+      "repliedAt": "2026-10-26T06:50:04.980Z",
+      "ruleMatched": "General Public",
+      "lastReplyText": "Assalomu alaykum, °-° Sayfiddinov Ulug'bek °-°! Xabaringiz uchun rahmat. Hozir tarmoqda bandman, bo‘shaganimda xabaringizni ko‘rib chiqaman. (Avto-javob)",
+      "replyCount": 1
+    }
+  ],
+  "messageLogs": [
+    {
+      "id": "log-839c84f5",
+      "telegramUserId": "6866328771",
+      "username": "nexa1re",
+      "firstName": "Sh",
+      "chatType": "private",
+      "incomingText": "ok",
+      "outgoingText": "Assalomu alaykum, Sh! Hozir biroz band edim, lekin xabaringizni ko‘rdim — bo‘shashim bilan birinchi bo‘lib sizga aloqaga chiqaman.",
+      "segmentMatched": "VIP / Yaqinlar",
+      "ruleMatched": "VIP / Yaqinlar",
+      "initialDelayMs": 8001,
+      "typingDurationMs": 3911,
+      "totalDelayLabel": "Waited 8.0s + 3.9s typing",
+      "status": "DELIVERED",
+      "reason": "Humanized delay + typing simulation completed safely.",
+      "isSimulated": false,
+      "pipelineSteps": [],
+      "createdAt": "2026-10-26T15:42:37.874Z"
+    },
+    {
+      "id": "log-23554276",
+      "telegramUserId": "5471528223",
+      "username": "aloxoja_03_07",
+      "firstName": "A'loxo'ja prime😮‍💨",
+      "chatType": "private",
+      "incomingText": "qerdaligini bilmadim",
+      "outgoingText": "Assalomu alaykum, A'loxo'ja prime😮‍💨! Xabaringiz uchun rahmat. Hozir tarmoqda bandman, bo‘shaganimda xabaringizni ko‘rib chiqaman. (Avto-javob)",
+      "segmentMatched": "General Public",
+      "ruleMatched": "General Public",
+      "initialDelayMs": 4612,
+      "typingDurationMs": 2068,
+      "totalDelayLabel": "Waited 4.6s + 2.1s typing",
+      "status": "DELIVERED",
+      "reason": "Humanized delay + typing simulation completed safely.",
+      "isSimulated": false,
+      "pipelineSteps": [],
+      "createdAt": "2026-10-26T14:18:28.070Z"
+    },
+    {
+      "id": "log-c5189c83",
+      "telegramUserId": "5471528223",
+      "username": "aloxoja_03_07",
+      "firstName": "A'loxo'ja prime😮‍💨",
+      "chatType": "private",
+      "incomingText": "yoq",
+      "outgoingText": null,
+      "segmentMatched": null,
+      "ruleMatched": "Smart Owner Online",
+      "initialDelayMs": 0,
+      "typingDurationMs": 0,
+      "totalDelayLabel": "0.0s (Siz Telegramdasiz)",
+      "status": "PAUSED_CONTACT",
+      "reason": "Siz hozir Telegram ilovasidasiz — avto-javob avtomatik to‘xtatildi.",
+      "isSimulated": false,
+      "pipelineSteps": [],
+      "createdAt": "2026-10-26T13:52:40.460Z"
+    },
+    {
+      "id": "log-479038d4",
+      "telegramUserId": "8266799541",
+      "username": "YTUmar",
+      "firstName": "Umar Shomurodov",
+      "chatType": "private",
+      "incomingText": "Shashlik sotib olib ber",
+      "outgoingText": "Assalomu alaykum, Umar Shomurodov! Xabaringiz uchun rahmat. Hozir tarmoqda bandman, bo‘shaganimda xabaringizni ko‘rib chiqaman. (Avto-javob)",
+      "segmentMatched": "General Public",
+      "ruleMatched": "General Public",
+      "initialDelayMs": 4837,
+      "typingDurationMs": 3507,
+      "totalDelayLabel": "Waited 4.8s + 3.5s typing",
+      "status": "DELIVERED",
+      "reason": "Humanized delay + typing simulation completed safely.",
+      "isSimulated": false,
+      "pipelineSteps": [],
+      "createdAt": "2026-10-26T06:50:49.672Z"
+    },
+    {
+      "id": "log-09dd29b5",
+      "telegramUserId": "1902572054",
+      "username": "UASayfiddinov2013",
+      "firstName": "°-° Sayfiddinov Ulug'bek °-°",
+      "chatType": "private",
+      "incomingText": "hi",
+      "outgoingText": "Assalomu alaykum, °-° Sayfiddinov Ulug'bek °-°! Xabaringiz uchun rahmat. Hozir tarmoqda bandman, bo‘shaganimda xabaringizni ko‘rib chiqaman. (Avto-javob)",
+      "segmentMatched": "General Public",
+      "ruleMatched": "General Public",
+      "initialDelayMs": 8574,
+      "typingDurationMs": 2754,
+      "totalDelayLabel": "Waited 8.6s + 2.8s typing",
+      "status": "DELIVERED",
+      "reason": "Humanized delay + typing simulation completed safely.",
+      "isSimulated": false,
+      "pipelineSteps": [],
+      "createdAt": "2026-10-26T06:50:04.983Z"
+    },
+    {
+      "id": "log-28cb5c31",
+      "telegramUserId": "1902572054",
+      "username": "UASayfiddinov2013",
+      "firstName": "°-° Sayfiddinov Ulug'bek °-°",
+      "chatType": "private",
+      "incomingText": "hi",
+      "outgoingText": null,
+      "segmentMatched": null,
+      "ruleMatched": "Smart Owner Online",
+      "initialDelayMs": 0,
+      "typingDurationMs": 0,
+      "totalDelayLabel": "0.0s (Siz Telegramdasiz)",
+      "status": "PAUSED_CONTACT",
+      "reason": "Siz hozir Telegram ilovasidasiz — avto-javob avtomatik to‘xtatildi.",
+      "isSimulated": false,
+      "pipelineSteps": [],
+      "createdAt": "2026-10-26T06:49:45.634Z"
+    },
+    {
+      "id": "log-3b7fac18",
+      "telegramUserId": "8266799541",
+      "username": "YTUmar",
+      "firstName": "Umar Shomurodov",
+      "chatType": "private",
+      "incomingText": "Salom",
+      "outgoingText": "Assalomu alaykum, Umar Shomurodov! Xabaringiz uchun rahmat. Hozir tarmoqda bandman, bo‘shaganimda xabaringizni ko‘rib chiqaman. (Avto-javob)",
+      "segmentMatched": "General Public",
+      "ruleMatched": "General Public",
+      "initialDelayMs": 8717,
+      "typingDurationMs": 3104,
+      "totalDelayLabel": "Waited 8.7s + 3.1s typing",
+      "status": "DELIVERED",
+      "reason": "Humanized delay + typing simulation completed safely.",
+      "isSimulated": false,
+      "pipelineSteps": [],
+      "createdAt": "2026-10-26T06:49:09.076Z"
+    },
+    {
+      "id": "log-807c2405",
+      "telegramUserId": "1902572054",
+      "username": "UASayfiddinov2013",
+      "firstName": "°-° Sayfiddinov Ulug'bek °-°",
+      "chatType": "private",
+      "incomingText": "salom",
+      "outgoingText": null,
+      "segmentMatched": "General Public",
+      "ruleMatched": "Reply-Once Guard",
+      "initialDelayMs": 0,
+      "typingDurationMs": 0,
+      "totalDelayLabel": "0.0s (Skipped)",
+      "status": "SKIPPED_ALREADY_REPLIED",
+      "reason": "Allaqachon javob berilgan (11:48). Qayta javob berish uchun \"Qayta javob berish\" tugmasini bosing.",
+      "isSimulated": false,
+      "pipelineSteps": [],
+      "createdAt": "2026-10-26T06:48:59.348Z"
+    },
+    {
+      "id": "log-e7f36cd2",
+      "telegramUserId": "6866328771",
+      "username": "nexa1re",
+      "firstName": "Sh",
+      "chatType": "private",
+      "incomingText": "gey",
+      "outgoingText": null,
+      "segmentMatched": "VIP / Yaqinlar",
+      "ruleMatched": "Reply-Once Guard",
+      "initialDelayMs": 0,
+      "typingDurationMs": 0,
+      "totalDelayLabel": "0.0s (Skipped)",
+      "status": "SKIPPED_ALREADY_REPLIED",
+      "reason": "Allaqachon javob berilgan (11:48). Qayta javob berish uchun \"Qayta javob berish\" tugmasini bosing.",
+      "isSimulated": false,
+      "pipelineSteps": [],
+      "createdAt": "2026-10-26T06:48:58.929Z"
+    },
+    {
+      "id": "log-54cf7d65",
+      "telegramUserId": "1902572054",
+      "username": "UASayfiddinov2013",
+      "firstName": "°-° Sayfiddinov Ulug'bek °-°",
+      "chatType": "private",
+      "incomingText": "salom",
+      "outgoingText": "Assalomu alaykum, °-° Sayfiddinov Ulug'bek °-°! Xabaringiz uchun rahmat. Hozir tarmoqda bandman, bo‘shaganimda xabaringizni ko‘rib chiqaman. (Avto-javob)",
+      "segmentMatched": "General Public",
+      "ruleMatched": "General Public",
+      "initialDelayMs": 4534,
+      "typingDurationMs": 3021,
+      "totalDelayLabel": "Waited 4.5s + 3.0s typing",
+      "status": "DELIVERED",
+      "reason": "Humanized delay + typing simulation completed safely.",
+      "isSimulated": false,
+      "pipelineSteps": [],
+      "createdAt": "2026-10-26T06:48:19.712Z"
+    },
+    {
+      "id": "log-a5c21595",
+      "telegramUserId": "6866328771",
+      "username": "nexa1re",
+      "firstName": "Sh",
+      "chatType": "private",
+      "incomingText": "555",
+      "outgoingText": "Assalomu alaykum, Sh! Hozir biroz band edim, lekin xabaringizni ko‘rdim — bo‘shashim bilan birinchi bo‘lib sizga aloqaga chiqaman.",
+      "segmentMatched": "VIP / Yaqinlar",
+      "ruleMatched": "VIP / Yaqinlar",
+      "initialDelayMs": 4599,
+      "typingDurationMs": 2077,
+      "totalDelayLabel": "Waited 4.6s + 2.1s typing",
+      "status": "DELIVERED",
+      "reason": "Humanized delay + typing simulation completed safely.",
+      "isSimulated": false,
+      "pipelineSteps": [],
+      "createdAt": "2026-10-26T06:48:18.195Z"
+    },
+    {
+      "id": "log-cc36848f",
+      "telegramUserId": "6866328771",
+      "username": "Sirojov_Sarvar",
+      "firstName": "Sh",
+      "chatType": "private",
+      "incomingText": "yuq darslari ko'p ekan",
+      "outgoingText": null,
+      "segmentMatched": "VIP / Yaqinlar",
+      "ruleMatched": "Reply-Once Guard",
+      "initialDelayMs": 0,
+      "typingDurationMs": 0,
+      "totalDelayLabel": "0.0s (Skipped immediately)",
+      "status": "SKIPPED_ALREADY_REPLIED",
+      "reason": "Allaqachon javob berilgan (19:51). Qayta javob yuborish uchun \"Qayta javob berish\" tugmasini bosing.",
+      "isSimulated": false,
+      "pipelineSteps": [
+        {
+          "step": 1,
+          "name": "Private Chat & Anti-Bot Filter",
+          "status": "PASSED",
+          "detail": "Verified genuine 1-on-1 human Private DM."
+        },
+        {
+          "step": 2,
+          "name": "Blacklist & Segment Guard",
+          "status": "PASSED",
+          "detail": "Segmented contact matched: \"VIP / Yaqinlar\" (Segment Template)."
+        },
+        {
+          "step": 3,
+          "name": "Reply-Once (Zero-Spam) Check",
+          "status": "SKIPPED",
+          "detail": "Already replied at 19:51 (Policy: NEVER). Skipping."
+        }
+      ],
+      "createdAt": "2026-10-23T06:28:55.887Z"
+    },
+    {
+      "id": "log-5966c97d",
+      "telegramUserId": "6866328771",
+      "username": "Sirojov_Sarvar",
+      "firstName": "Sh",
+      "chatType": "private",
+      "incomingText": "kelmadi bugun",
+      "outgoingText": null,
+      "segmentMatched": "VIP / Yaqinlar",
+      "ruleMatched": "Reply-Once Guard",
+      "initialDelayMs": 0,
+      "typingDurationMs": 0,
+      "totalDelayLabel": "0.0s (Skipped immediately)",
+      "status": "SKIPPED_ALREADY_REPLIED",
+      "reason": "Allaqachon javob berilgan (19:51). Qayta javob yuborish uchun \"Qayta javob berish\" tugmasini bosing.",
+      "isSimulated": false,
+      "pipelineSteps": [
+        {
+          "step": 1,
+          "name": "Private Chat & Anti-Bot Filter",
+          "status": "PASSED",
+          "detail": "Verified genuine 1-on-1 human Private DM."
+        },
+        {
+          "step": 2,
+          "name": "Blacklist & Segment Guard",
+          "status": "PASSED",
+          "detail": "Segmented contact matched: \"VIP / Yaqinlar\" (Segment Template)."
+        },
+        {
+          "step": 3,
+          "name": "Reply-Once (Zero-Spam) Check",
+          "status": "SKIPPED",
+          "detail": "Already replied at 19:51 (Policy: NEVER). Skipping."
+        }
+      ],
+      "createdAt": "2026-10-23T06:27:38.591Z"
+    },
+    {
+      "id": "log-0ce4cade",
+      "telegramUserId": "6866328771",
+      "username": "Sirojov_Sarvar",
+      "firstName": "Sh",
+      "chatType": "private",
+      "incomingText": "good",
+      "outgoingText": null,
+      "segmentMatched": "VIP / Yaqinlar",
+      "ruleMatched": "Reply-Once Guard",
+      "initialDelayMs": 0,
+      "typingDurationMs": 0,
+      "totalDelayLabel": "0.0s (Skipped immediately)",
+      "status": "SKIPPED_ALREADY_REPLIED",
+      "reason": "Allaqachon javob berilgan (19:51). Qayta javob yuborish uchun \"Qayta javob berish\" tugmasini bosing.",
+      "isSimulated": false,
+      "pipelineSteps": [
+        {
+          "step": 1,
+          "name": "Private Chat & Anti-Bot Filter",
+          "status": "PASSED",
+          "detail": "Verified genuine 1-on-1 human Private DM."
+        },
+        {
+          "step": 2,
+          "name": "Blacklist & Segment Guard",
+          "status": "PASSED",
+          "detail": "Segmented contact matched: \"VIP / Yaqinlar\" (Segment Template)."
+        },
+        {
+          "step": 3,
+          "name": "Reply-Once (Zero-Spam) Check",
+          "status": "SKIPPED",
+          "detail": "Already replied at 19:51 (Policy: NEVER). Skipping."
+        }
+      ],
+      "createdAt": "2026-10-23T06:27:07.020Z"
+    },
+    {
+      "id": "log-1744a4e2",
+      "telegramUserId": "6866328771",
+      "username": "Sirojov_Sarvar",
+      "firstName": "Sh",
+      "chatType": "private",
+      "incomingText": "Ózing aytdibgku",
+      "outgoingText": null,
+      "segmentMatched": "VIP / Yaqinlar",
+      "ruleMatched": "Reply-Once Guard",
+      "initialDelayMs": 0,
+      "typingDurationMs": 0,
+      "totalDelayLabel": "0.0s (Skipped immediately)",
+      "status": "SKIPPED_ALREADY_REPLIED",
+      "reason": "Allaqachon javob berilgan (19:51). Qayta javob yuborish uchun \"Qayta javob berish\" tugmasini bosing.",
+      "isSimulated": false,
+      "pipelineSteps": [
+        {
+          "step": 1,
+          "name": "Private Chat & Anti-Bot Filter",
+          "status": "PASSED",
+          "detail": "Verified genuine 1-on-1 human Private DM."
+        },
+        {
+          "step": 2,
+          "name": "Blacklist & Segment Guard",
+          "status": "PASSED",
+          "detail": "Segmented contact matched: \"VIP / Yaqinlar\" (Segment Template)."
+        },
+        {
+          "step": 3,
+          "name": "Reply-Once (Zero-Spam) Check",
+          "status": "SKIPPED",
+          "detail": "Already replied at 19:51 (Policy: NEVER). Skipping."
+        }
+      ],
+      "createdAt": "2026-10-22T15:28:35.398Z"
+    },
+    {
+      "id": "log-6f446aee",
+      "telegramUserId": "6866328771",
+      "username": "Sirojov_Sarvar",
+      "firstName": "Sh",
+      "chatType": "private",
+      "incomingText": "yog'rr",
+      "outgoingText": null,
+      "segmentMatched": "VIP / Yaqinlar",
+      "ruleMatched": "Reply-Once Guard",
+      "initialDelayMs": 0,
+      "typingDurationMs": 0,
+      "totalDelayLabel": "0.0s (Skipped immediately)",
+      "status": "SKIPPED_ALREADY_REPLIED",
+      "reason": "Allaqachon javob berilgan (19:51). Qayta javob yuborish uchun \"Qayta javob berish\" tugmasini bosing.",
+      "isSimulated": false,
+      "pipelineSteps": [
+        {
+          "step": 1,
+          "name": "Private Chat & Anti-Bot Filter",
+          "status": "PASSED",
+          "detail": "Verified genuine 1-on-1 human Private DM."
+        },
+        {
+          "step": 2,
+          "name": "Blacklist & Segment Guard",
+          "status": "PASSED",
+          "detail": "Segmented contact matched: \"VIP / Yaqinlar\" (Segment Template)."
+        },
+        {
+          "step": 3,
+          "name": "Reply-Once (Zero-Spam) Check",
+          "status": "SKIPPED",
+          "detail": "Already replied at 19:51 (Policy: NEVER). Skipping."
+        }
+      ],
+      "createdAt": "2026-10-22T14:51:21.668Z"
+    },
+    {
+      "id": "log-42c0cbcb",
+      "telegramUserId": "6866328771",
+      "username": "Sirojov_Sarvar",
+      "firstName": "Sh",
+      "chatType": "private",
+      "incomingText": "ha",
+      "outgoingText": "Assalomu alaykum, Sh! Hozir biroz band edim, lekin xabaringizni ko‘rdim — bo‘shashim bilan birinchi bo‘lib sizga aloqaga chiqaman.",
+      "segmentMatched": "VIP / Yaqinlar",
+      "ruleMatched": "VIP / Yaqinlar",
+      "initialDelayMs": 8070,
+      "typingDurationMs": 2080,
+      "totalDelayLabel": "Waited 8.1s + 2.1s typing",
+      "status": "DELIVERED",
+      "reason": "Humanized delay + typing simulation completed safely.",
+      "isSimulated": false,
+      "pipelineSteps": [
+        {
+          "step": 1,
+          "name": "Private Chat & Anti-Bot Filter",
+          "status": "PASSED",
+          "detail": "Verified genuine 1-on-1 human Private DM."
+        },
+        {
+          "step": 2,
+          "name": "Blacklist & Segment Guard",
+          "status": "PASSED",
+          "detail": "Segmented contact matched: \"VIP / Yaqinlar\" (Segment Template)."
+        },
+        {
+          "step": 3,
+          "name": "Reply-Once (Zero-Spam) Check",
+          "status": "PASSED",
+          "detail": "Eligible for safe auto-reply."
+        },
+        {
+          "step": 4,
+          "name": "Hourly MTProto Rate-Limit Shield",
+          "status": "PASSED",
+          "detail": "Rate counter at 8/15 this hour."
+        },
+        {
+          "step": 5,
+          "name": "Humanized Delay & Typing Simulation",
+          "status": "EXECUTED",
+          "durationMs": 10150,
+          "detail": "Applied randomDelay(4000, 9000) = 8070ms read pause, then sendChatAction('typing') for 2080ms."
+        },
+        {
+          "step": 6,
+          "name": "MTProto DM Dispatch & RepliedHistory Lock",
+          "status": "EXECUTED",
+          "detail": "Dispatched personalized reply via \"VIP / Yaqinlar\"."
+        }
+      ],
+      "createdAt": "2026-10-22T14:51:11.289Z"
+    },
+    {
+      "id": "log-57beec66",
+      "telegramUserId": "7548224812",
+      "username": null,
+      "firstName": "Nanajon",
+      "chatType": "private",
+      "incomingText": "E",
+      "outgoingText": "Assalomu alaykum, Nanajon! Xabaringiz uchun rahmat. Hozir tarmoqda bandman, bo‘shaganimda xabaringizni ko‘rib chiqaman. (Avto-javob)",
+      "segmentMatched": "General Public",
+      "ruleMatched": "General Public",
+      "initialDelayMs": 8764,
+      "typingDurationMs": 3412,
+      "totalDelayLabel": "Waited 8.8s + 3.4s typing",
+      "status": "DELIVERED",
+      "reason": "Humanized delay + typing simulation completed safely.",
+      "isSimulated": false,
+      "pipelineSteps": [
+        {
+          "step": 1,
+          "name": "Private Chat & Anti-Bot Filter",
+          "status": "PASSED",
+          "detail": "Verified genuine 1-on-1 human Private DM."
+        },
+        {
+          "step": 2,
+          "name": "Blacklist & Segment Guard",
+          "status": "PASSED",
+          "detail": "Unknown private sender routed to safe default \"General Public\"."
+        },
+        {
+          "step": 3,
+          "name": "Reply-Once (Zero-Spam) Check",
+          "status": "PASSED",
+          "detail": "Eligible for safe auto-reply."
+        },
+        {
+          "step": 4,
+          "name": "Hourly MTProto Rate-Limit Shield",
+          "status": "PASSED",
+          "detail": "Rate counter at 10/15 this hour."
+        },
+        {
+          "step": 5,
+          "name": "Humanized Delay & Typing Simulation",
+          "status": "EXECUTED",
+          "durationMs": 12176,
+          "detail": "Applied randomDelay(4000, 9000) = 8764ms read pause, then sendChatAction('typing') for 3412ms."
+        },
+        {
+          "step": 6,
+          "name": "MTProto DM Dispatch & RepliedHistory Lock",
+          "status": "EXECUTED",
+          "detail": "Dispatched personalized reply via \"General Public\"."
+        }
+      ],
+      "createdAt": "2026-10-22T14:09:02.321Z"
+    },
+    {
+      "id": "log-927c0f37",
+      "telegramUserId": "6866328771",
+      "username": "Sirojov_Sarvar",
+      "firstName": "Sh",
+      "chatType": "private",
+      "incomingText": "ok",
+      "outgoingText": null,
+      "segmentMatched": "VIP / Yaqinlar",
+      "ruleMatched": "Reply-Once Guard",
+      "initialDelayMs": 0,
+      "typingDurationMs": 0,
+      "totalDelayLabel": "0.0s (Skipped immediately)",
+      "status": "SKIPPED_ALREADY_REPLIED",
+      "reason": "Allaqachon javob berilgan (18:58). Qayta javob yuborish uchun \"Qayta javob berish\" tugmasini bosing.",
+      "isSimulated": false,
+      "pipelineSteps": [
+        {
+          "step": 1,
+          "name": "Private Chat & Anti-Bot Filter",
+          "status": "PASSED",
+          "detail": "Verified genuine 1-on-1 human Private DM."
+        },
+        {
+          "step": 2,
+          "name": "Blacklist & Segment Guard",
+          "status": "PASSED",
+          "detail": "Segmented contact matched: \"VIP / Yaqinlar\" (Segment Template)."
+        },
+        {
+          "step": 3,
+          "name": "Reply-Once (Zero-Spam) Check",
+          "status": "SKIPPED",
+          "detail": "Already replied at 18:58 (Policy: NEVER). Skipping."
+        }
+      ],
+      "createdAt": "2026-10-22T14:07:07.692Z"
+    },
+    {
+      "id": "log-d0e0a8aa",
+      "telegramUserId": "7548224812",
+      "username": null,
+      "firstName": "Nanajon",
+      "chatType": "private",
+      "incomingText": "S",
+      "outgoingText": null,
+      "segmentMatched": "General Public",
+      "ruleMatched": "Reply-Once Guard",
+      "initialDelayMs": 0,
+      "typingDurationMs": 0,
+      "totalDelayLabel": "0.0s (Skipped immediately)",
+      "status": "SKIPPED_ALREADY_REPLIED",
+      "reason": "Allaqachon javob berilgan (19:04). Qayta javob yuborish uchun \"Qayta javob berish\" tugmasini bosing.",
+      "isSimulated": false,
+      "pipelineSteps": [
+        {
+          "step": 1,
+          "name": "Private Chat & Anti-Bot Filter",
+          "status": "PASSED",
+          "detail": "Verified genuine 1-on-1 human Private DM."
+        },
+        {
+          "step": 2,
+          "name": "Blacklist & Segment Guard",
+          "status": "PASSED",
+          "detail": "Unknown private sender routed to safe default \"General Public\"."
+        },
+        {
+          "step": 3,
+          "name": "Reply-Once (Zero-Spam) Check",
+          "status": "SKIPPED",
+          "detail": "Already replied at 19:04 (Policy: NEVER). Skipping."
+        }
+      ],
+      "createdAt": "2026-10-22T14:04:12.606Z"
+    },
+    {
+      "id": "log-5ee53ed3",
+      "telegramUserId": "7548224812",
+      "username": null,
+      "firstName": "Nanajon",
+      "chatType": "private",
+      "incomingText": "S",
+      "outgoingText": "Assalomu alaykum, Nanajon! Xabaringiz uchun rahmat. Hozir tarmoqda bandman, bo‘shaganimda xabaringizni ko‘rib chiqaman. (Avto-javob)",
+      "segmentMatched": "General Public",
+      "ruleMatched": "General Public",
+      "initialDelayMs": 5404,
+      "typingDurationMs": 2294,
+      "totalDelayLabel": "Waited 5.4s + 2.3s typing",
+      "status": "DELIVERED",
+      "reason": "Humanized delay + typing simulation completed safely.",
+      "isSimulated": false,
+      "pipelineSteps": [
+        {
+          "step": 1,
+          "name": "Private Chat & Anti-Bot Filter",
+          "status": "PASSED",
+          "detail": "Verified genuine 1-on-1 human Private DM."
+        },
+        {
+          "step": 2,
+          "name": "Blacklist & Segment Guard",
+          "status": "PASSED",
+          "detail": "Unknown private sender routed to safe default \"General Public\"."
+        },
+        {
+          "step": 3,
+          "name": "Reply-Once (Zero-Spam) Check",
+          "status": "PASSED",
+          "detail": "Eligible for safe auto-reply."
+        },
+        {
+          "step": 4,
+          "name": "Hourly MTProto Rate-Limit Shield",
+          "status": "PASSED",
+          "detail": "Rate counter at 9/15 this hour."
+        },
+        {
+          "step": 5,
+          "name": "Humanized Delay & Typing Simulation",
+          "status": "EXECUTED",
+          "durationMs": 7698,
+          "detail": "Applied randomDelay(4000, 9000) = 5404ms read pause, then sendChatAction('typing') for 2294ms."
+        },
+        {
+          "step": 6,
+          "name": "MTProto DM Dispatch & RepliedHistory Lock",
+          "status": "EXECUTED",
+          "detail": "Dispatched personalized reply via \"General Public\"."
+        }
+      ],
+      "createdAt": "2026-10-22T14:04:08.448Z"
+    },
+    {
+      "id": "log-37556c34",
+      "telegramUserId": "6866328771",
+      "username": "Sirojov_Sarvar",
+      "firstName": "Sh",
+      "chatType": "private",
+      "incomingText": "ok",
+      "outgoingText": null,
+      "segmentMatched": "General Public",
+      "ruleMatched": "Reply-Once Guard",
+      "initialDelayMs": 0,
+      "typingDurationMs": 0,
+      "totalDelayLabel": "0.0s (Skipped immediately)",
+      "status": "SKIPPED_ALREADY_REPLIED",
+      "reason": "Allaqachon javob berilgan (18:58). Qayta javob yuborish uchun \"Qayta javob berish\" tugmasini bosing.",
+      "isSimulated": false,
+      "pipelineSteps": [
+        {
+          "step": 1,
+          "name": "Private Chat & Anti-Bot Filter",
+          "status": "PASSED",
+          "detail": "Verified genuine 1-on-1 human Private DM."
+        },
+        {
+          "step": 2,
+          "name": "Blacklist & Segment Guard",
+          "status": "PASSED",
+          "detail": "Unknown private sender routed to safe default \"General Public\"."
+        },
+        {
+          "step": 3,
+          "name": "Reply-Once (Zero-Spam) Check",
+          "status": "SKIPPED",
+          "detail": "Already replied at 18:58 (Policy: NEVER). Skipping."
+        }
+      ],
+      "createdAt": "2026-10-22T14:01:48.503Z"
+    },
+    {
+      "id": "log-e7263f50",
+      "telegramUserId": "6866328771",
+      "username": "Sirojov_Sarvar",
+      "firstName": "Sh",
+      "chatType": "private",
+      "incomingText": "san onilne bo'lganingcha",
+      "outgoingText": null,
+      "segmentMatched": "General Public",
+      "ruleMatched": "Reply-Once Guard",
+      "initialDelayMs": 0,
+      "typingDurationMs": 0,
+      "totalDelayLabel": "0.0s (Skipped immediately)",
+      "status": "SKIPPED_ALREADY_REPLIED",
+      "reason": "Allaqachon javob berilgan (18:58). Qayta javob yuborish uchun \"Qayta javob berish\" tugmasini bosing.",
+      "isSimulated": false,
+      "pipelineSteps": [
+        {
+          "step": 1,
+          "name": "Private Chat & Anti-Bot Filter",
+          "status": "PASSED",
+          "detail": "Verified genuine 1-on-1 human Private DM."
+        },
+        {
+          "step": 2,
+          "name": "Blacklist & Segment Guard",
+          "status": "PASSED",
+          "detail": "Unknown private sender routed to safe default \"General Public\"."
+        },
+        {
+          "step": 3,
+          "name": "Reply-Once (Zero-Spam) Check",
+          "status": "SKIPPED",
+          "detail": "Already replied at 18:58 (Policy: NEVER). Skipping."
+        }
+      ],
+      "createdAt": "2026-10-22T14:00:15.248Z"
+    },
+    {
+      "id": "log-73657ea7",
+      "telegramUserId": "6866328771",
+      "username": "Sirojov_Sarvar",
+      "firstName": "Sh",
+      "chatType": "private",
+      "incomingText": "bir marta aytsin",
+      "outgoingText": null,
+      "segmentMatched": "General Public",
+      "ruleMatched": "Reply-Once Guard",
+      "initialDelayMs": 0,
+      "typingDurationMs": 0,
+      "totalDelayLabel": "0.0s (Skipped immediately)",
+      "status": "SKIPPED_ALREADY_REPLIED",
+      "reason": "Allaqachon javob berilgan (18:58). Qayta javob yuborish uchun \"Qayta javob berish\" tugmasini bosing.",
+      "isSimulated": false,
+      "pipelineSteps": [
+        {
+          "step": 1,
+          "name": "Private Chat & Anti-Bot Filter",
+          "status": "PASSED",
+          "detail": "Verified genuine 1-on-1 human Private DM."
+        },
+        {
+          "step": 2,
+          "name": "Blacklist & Segment Guard",
+          "status": "PASSED",
+          "detail": "Unknown private sender routed to safe default \"General Public\"."
+        },
+        {
+          "step": 3,
+          "name": "Reply-Once (Zero-Spam) Check",
+          "status": "SKIPPED",
+          "detail": "Already replied at 18:58 (Policy: NEVER). Skipping."
+        }
+      ],
+      "createdAt": "2026-10-22T14:00:05.838Z"
+    },
+    {
+      "id": "log-320e8696",
+      "telegramUserId": "6866328771",
+      "username": "Sirojov_Sarvar",
+      "firstName": "Sh",
+      "chatType": "private",
+      "incomingText": "lekn san nima deb sax qilsang shunaqa yozarkan",
+      "outgoingText": "Assalomu alaykum, Sh! Xabaringiz uchun rahmat. Hozir tarmoqda bandman, bo‘shaganimda xabaringizni ko‘rib chiqaman. (Avto-javob)",
+      "segmentMatched": "General Public",
+      "ruleMatched": "General Public",
+      "initialDelayMs": 8530,
+      "typingDurationMs": 3584,
+      "totalDelayLabel": "Waited 8.5s + 3.6s typing",
+      "status": "DELIVERED",
+      "reason": "Humanized delay + typing simulation completed safely.",
+      "isSimulated": false,
+      "pipelineSteps": [
+        {
+          "step": 1,
+          "name": "Private Chat & Anti-Bot Filter",
+          "status": "PASSED",
+          "detail": "Verified genuine 1-on-1 human Private DM."
+        },
+        {
+          "step": 2,
+          "name": "Blacklist & Segment Guard",
+          "status": "PASSED",
+          "detail": "Unknown private sender routed to safe default \"General Public\"."
+        },
+        {
+          "step": 3,
+          "name": "Reply-Once (Zero-Spam) Check",
+          "status": "PASSED",
+          "detail": "Eligible for safe auto-reply."
+        },
+        {
+          "step": 4,
+          "name": "Hourly MTProto Rate-Limit Shield",
+          "status": "PASSED",
+          "detail": "Rate counter at 8/15 this hour."
+        },
+        {
+          "step": 5,
+          "name": "Humanized Delay & Typing Simulation",
+          "status": "EXECUTED",
+          "durationMs": 12114,
+          "detail": "Applied randomDelay(4000, 9000) = 8530ms read pause, then sendChatAction('typing') for 3584ms."
+        },
+        {
+          "step": 6,
+          "name": "MTProto DM Dispatch & RepliedHistory Lock",
+          "status": "EXECUTED",
+          "detail": "Dispatched personalized reply via \"General Public\"."
+        }
+      ],
+      "createdAt": "2026-10-22T13:58:56.677Z"
+    },
+    {
+      "id": "log-9e736220",
+      "telegramUserId": "6866328771",
+      "username": "Sirojov_Sarvar",
+      "firstName": "Sh",
+      "chatType": "private",
+      "incomingText": "hay hoz darsdaman",
+      "outgoingText": "Assalomu alaykum, Sh! Xabaringiz uchun rahmat. Hozir tarmoqda bandman, bo‘shaganimda xabaringizni ko‘rib chiqaman. (Avto-javob)",
+      "segmentMatched": "General Public",
+      "ruleMatched": "General Public",
+      "initialDelayMs": 8895,
+      "typingDurationMs": 3241,
+      "totalDelayLabel": "Waited 8.9s + 3.2s typing",
+      "status": "DELIVERED",
+      "reason": "Humanized delay + typing simulation completed safely.",
+      "isSimulated": false,
+      "pipelineSteps": [
+        {
+          "step": 1,
+          "name": "Private Chat & Anti-Bot Filter",
+          "status": "PASSED",
+          "detail": "Verified genuine 1-on-1 human Private DM."
+        },
+        {
+          "step": 2,
+          "name": "Blacklist & Segment Guard",
+          "status": "PASSED",
+          "detail": "Unknown private sender routed to safe default \"General Public\"."
+        },
+        {
+          "step": 3,
+          "name": "Reply-Once (Zero-Spam) Check",
+          "status": "PASSED",
+          "detail": "Eligible for safe auto-reply."
+        },
+        {
+          "step": 4,
+          "name": "Hourly MTProto Rate-Limit Shield",
+          "status": "PASSED",
+          "detail": "Rate counter at 7/15 this hour."
+        },
+        {
+          "step": 5,
+          "name": "Humanized Delay & Typing Simulation",
+          "status": "EXECUTED",
+          "durationMs": 12136,
+          "detail": "Applied randomDelay(4000, 9000) = 8895ms read pause, then sendChatAction('typing') for 3241ms."
+        },
+        {
+          "step": 6,
+          "name": "MTProto DM Dispatch & RepliedHistory Lock",
+          "status": "EXECUTED",
+          "detail": "Dispatched personalized reply via \"General Public\"."
+        }
+      ],
+      "createdAt": "2026-10-22T13:58:37.448Z"
+    },
+    {
+      "id": "log-546ce36b",
+      "telegramUserId": "6866328771",
+      "username": "Sirojov_Sarvar",
+      "firstName": "Sh",
+      "chatType": "private",
+      "incomingText": "ohooo",
+      "outgoingText": "Assalomu alaykum, Sh! Xabaringiz uchun rahmat. Hozir tarmoqda bandman, bo‘shaganimda xabaringizni ko‘rib chiqaman. (Avto-javob)",
+      "segmentMatched": "General Public",
+      "ruleMatched": "General Public",
+      "initialDelayMs": 4300,
+      "typingDurationMs": 3157,
+      "totalDelayLabel": "Waited 4.3s + 3.2s typing",
+      "status": "DELIVERED",
+      "reason": "Humanized delay + typing simulation completed safely.",
+      "isSimulated": false,
+      "pipelineSteps": [
+        {
+          "step": 1,
+          "name": "Private Chat & Anti-Bot Filter",
+          "status": "PASSED",
+          "detail": "Verified genuine 1-on-1 human Private DM."
+        },
+        {
+          "step": 2,
+          "name": "Blacklist & Segment Guard",
+          "status": "PASSED",
+          "detail": "Unknown private sender routed to safe default \"General Public\"."
+        },
+        {
+          "step": 3,
+          "name": "Reply-Once (Zero-Spam) Check",
+          "status": "PASSED",
+          "detail": "Eligible for safe auto-reply."
+        },
+        {
+          "step": 4,
+          "name": "Hourly MTProto Rate-Limit Shield",
+          "status": "PASSED",
+          "detail": "Rate counter at 6/15 this hour."
+        },
+        {
+          "step": 5,
+          "name": "Humanized Delay & Typing Simulation",
+          "status": "EXECUTED",
+          "durationMs": 7457,
+          "detail": "Applied randomDelay(4000, 9000) = 4300ms read pause, then sendChatAction('typing') for 3157ms."
+        },
+        {
+          "step": 6,
+          "name": "MTProto DM Dispatch & RepliedHistory Lock",
+          "status": "EXECUTED",
+          "detail": "Dispatched personalized reply via \"General Public\"."
+        }
+      ],
+      "createdAt": "2026-10-22T13:58:21.490Z"
+    },
+    {
+      "id": "log-45ed2aef",
+      "telegramUserId": "6866328771",
+      "username": "Sirojov_Sarvar",
+      "firstName": "Sh",
+      "chatType": "private",
+      "incomingText": "qani",
+      "outgoingText": "Assalomu alaykum, Sh! Xabaringiz uchun rahmat. Hozir tarmoqda bandman, bo‘shaganimda xabaringizni ko‘rib chiqaman. (Avto-javob)",
+      "segmentMatched": "General Public",
+      "ruleMatched": "General Public",
+      "initialDelayMs": 4916,
+      "typingDurationMs": 2092,
+      "totalDelayLabel": "Waited 4.9s + 2.1s typing",
+      "status": "DELIVERED",
+      "reason": "Humanized delay + typing simulation completed safely.",
+      "isSimulated": false,
+      "pipelineSteps": [
+        {
+          "step": 1,
+          "name": "Private Chat & Anti-Bot Filter",
+          "status": "PASSED",
+          "detail": "Verified genuine 1-on-1 human Private DM."
+        },
+        {
+          "step": 2,
+          "name": "Blacklist & Segment Guard",
+          "status": "PASSED",
+          "detail": "Unknown private sender routed to safe default \"General Public\"."
+        },
+        {
+          "step": 3,
+          "name": "Reply-Once (Zero-Spam) Check",
+          "status": "PASSED",
+          "detail": "Eligible for safe auto-reply."
+        },
+        {
+          "step": 4,
+          "name": "Hourly MTProto Rate-Limit Shield",
+          "status": "PASSED",
+          "detail": "Rate counter at 5/15 this hour."
+        },
+        {
+          "step": 5,
+          "name": "Humanized Delay & Typing Simulation",
+          "status": "EXECUTED",
+          "durationMs": 7008,
+          "detail": "Applied randomDelay(4000, 9000) = 4916ms read pause, then sendChatAction('typing') for 2092ms."
+        },
+        {
+          "step": 6,
+          "name": "MTProto DM Dispatch & RepliedHistory Lock",
+          "status": "EXECUTED",
+          "detail": "Dispatched personalized reply via \"General Public\"."
+        }
+      ],
+      "createdAt": "2026-10-22T13:56:47.369Z"
+    },
+    {
+      "id": "log-64840fd5",
+      "telegramUserId": "7548224812",
+      "username": null,
+      "firstName": "Nanajon",
+      "chatType": "private",
+      "incomingText": "Gg",
+      "outgoingText": "Assalomu alaykum, Nanajon! Xabaringiz uchun rahmat. Hozir tarmoqda bandman, bo‘shaganimda xabaringizni ko‘rib chiqaman. (Avto-javob)",
+      "segmentMatched": "General Public",
+      "ruleMatched": "General Public",
+      "initialDelayMs": 4950,
+      "typingDurationMs": 3583,
+      "totalDelayLabel": "Waited 5.0s + 3.6s typing",
+      "status": "DELIVERED",
+      "reason": "Humanized delay + typing simulation completed safely.",
+      "isSimulated": false,
+      "pipelineSteps": [
+        {
+          "step": 1,
+          "name": "Private Chat & Anti-Bot Filter",
+          "status": "PASSED",
+          "detail": "Verified genuine 1-on-1 human Private DM."
+        },
+        {
+          "step": 2,
+          "name": "Blacklist & Segment Guard",
+          "status": "PASSED",
+          "detail": "Unknown private sender routed to safe default \"General Public\"."
+        },
+        {
+          "step": 3,
+          "name": "Reply-Once (Zero-Spam) Check",
+          "status": "PASSED",
+          "detail": "Eligible for safe auto-reply."
+        },
+        {
+          "step": 4,
+          "name": "Hourly MTProto Rate-Limit Shield",
+          "status": "PASSED",
+          "detail": "Rate counter at 4/15 this hour."
+        },
+        {
+          "step": 5,
+          "name": "Humanized Delay & Typing Simulation",
+          "status": "EXECUTED",
+          "durationMs": 8533,
+          "detail": "Applied randomDelay(4000, 9000) = 4950ms read pause, then sendChatAction('typing') for 3583ms."
+        },
+        {
+          "step": 6,
+          "name": "MTProto DM Dispatch & RepliedHistory Lock",
+          "status": "EXECUTED",
+          "detail": "Dispatched personalized reply via \"General Public\"."
+        }
+      ],
+      "createdAt": "2026-10-22T13:54:22.396Z"
+    },
+    {
+      "id": "log-2d2210c7",
+      "telegramUserId": "7548224812",
+      "username": null,
+      "firstName": "Nanajon",
+      "chatType": "private",
+      "incomingText": "Ok",
+      "outgoingText": "Assalomu alaykum, Nanajon! Xabaringiz uchun rahmat. Hozir tarmoqda bandman, bo‘shaganimda xabaringizni ko‘rib chiqaman. (Avto-javob)",
+      "segmentMatched": "General Public",
+      "ruleMatched": "General Public",
+      "initialDelayMs": 4174,
+      "typingDurationMs": 3101,
+      "totalDelayLabel": "Waited 4.2s + 3.1s typing",
+      "status": "DELIVERED",
+      "reason": "Humanized delay + typing simulation completed safely.",
+      "isSimulated": false,
+      "createdAt": "2026-10-22T13:50:39.162Z"
+    },
+    {
+      "id": "log-28f43281",
+      "telegramUserId": "7548224812",
+      "username": null,
+      "firstName": "Nanajon",
+      "chatType": "private",
+      "incomingText": "Yi",
+      "outgoingText": "Assalomu alaykum, Nanajon! Xabaringiz uchun rahmat. Hozir tarmoqda bandman, bo‘shaganimda xabaringizni ko‘rib chiqaman. (Avto-javob)",
+      "segmentMatched": "General Public",
+      "ruleMatched": "General Public",
+      "initialDelayMs": 4210,
+      "typingDurationMs": 3025,
+      "totalDelayLabel": "Waited 4.2s + 3.0s typing",
+      "status": "DELIVERED",
+      "reason": "Humanized delay + typing simulation completed safely.",
+      "isSimulated": false,
+      "createdAt": "2026-10-22T13:49:50.000Z"
+    },
+    {
+      "id": "log-88dc6a49",
+      "telegramUserId": "7548224812",
+      "username": null,
+      "firstName": "Nanajon",
+      "chatType": "private",
+      "incomingText": "Mm",
+      "outgoingText": "Assalomu alaykum, Nanajon! Xabaringiz uchun rahmat. Hozir tarmoqda bandman, bo‘shaganimda xabaringizni ko‘rib chiqaman. (Avto-javob)",
+      "segmentMatched": "General Public",
+      "ruleMatched": "General Public",
+      "initialDelayMs": 5002,
+      "typingDurationMs": 2065,
+      "totalDelayLabel": "Waited 5.0s + 2.1s typing",
+      "status": "DELIVERED",
+      "reason": "Humanized delay + typing simulation completed safely.",
+      "isSimulated": false,
+      "createdAt": "2026-10-22T13:27:59.048Z"
+    }
+  ]
+}

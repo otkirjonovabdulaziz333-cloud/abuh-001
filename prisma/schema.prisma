@@ -1,0 +1,107 @@
+// Prisma Schema for Telegram Anti-Ban Userbot & DM Auto-Reply Engine
+// Supports SQLite by default with local zero-config fallback store
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Session {
+  id                  String   @id @default("primary")
+  apiId               Int?
+  encryptedApiHash    String?  // AES-256-GCM encrypted API hash; never exposed to client
+  encryptedSessionStr String?  // AES-256-GCM encrypted MTProto StringSession; never exposed to client
+  phoneNumber         String?  // Masked on read
+  username            String?
+  firstName           String?
+  telegramUserId      String?
+  status              String   @default("DISCONNECTED") // DISCONNECTED | AWAITING_CODE | AWAITING_2FA | CONNECTED | EMERGENCY_STOP
+  lastOnlinePingAt    DateTime?
+  nextOnlinePingAt    DateTime?
+  updatedAt           DateTime @updatedAt
+  createdAt           DateTime @default(now())
+}
+
+model Segment {
+  id              String    @id
+  name            String    @unique // "VIP / Yaqinlar", "Mijozlar", "General Public", "Blacklist"
+  slug            String    @unique // "vip", "clients", "general", "blacklist"
+  description     String
+  template        String
+  isIgnored       Boolean   @default(false) // true for Blacklist
+  badgeColor      String    @default("emerald")
+  priority        Int       @default(10)
+  enabled         Boolean   @default(true)
+  contacts        Contact[]
+  updatedAt       DateTime  @updatedAt
+  createdAt       DateTime  @default(now())
+}
+
+model Contact {
+  id              String   @id @default(cuid())
+  telegramUserId  String   @unique
+  username        String?
+  firstName       String
+  lastName        String?
+  phone           String?
+  segmentId       String
+  segment         Segment  @relation(fields: [segmentId], references: [id])
+  customTemplate  String?  // Optional per-contact override template
+  isPaused        Boolean  @default(false) // Per-user auto-reply pause switch
+  notes           String?
+  updatedAt       DateTime @updatedAt
+  createdAt       DateTime @default(now())
+}
+
+model RepliedHistory {
+  id              String   @id @default(cuid())
+  telegramUserId  String   @unique
+  username        String?
+  firstName       String?
+  repliedAt       DateTime @default(now())
+  ruleMatched     String   // e.g. "VIP / Yaqinlar (Custom)", "Mijozlar", "General Public"
+  lastReplyText   String?
+  replyCount      Int      @default(1)
+}
+
+model MessageLog {
+  id                String   @id @default(cuid())
+  telegramUserId    String
+  username          String?
+  firstName         String
+  chatType          String   @default("private") // private | group | supergroup | channel | bot | forwarded
+  incomingText      String
+  outgoingText      String?
+  segmentMatched    String?
+  ruleMatched       String?
+  initialDelayMs    Int      @default(0) // e.g., 5200 (4000-9000ms)
+  typingDurationMs  Int      @default(0) // e.g., 2800 (2000-4000ms)
+  totalDelayLabel   String   // e.g., "Waited 5.2s + 2.8s typing"
+  status            String   // DELIVERED | SKIPPED_ALREADY_REPLIED | BLOCKED_BLACKLIST | IGNORED_NON_PRIVATE | THROTTLED_RATE_LIMIT | PAUSED_CONTACT | EMERGENCY_STOPPED
+  reason            String?
+  isSimulated       Boolean  @default(false)
+  createdAt         DateTime @default(now())
+}
+
+model SafetyConfig {
+  id                        String   @id @default("default")
+  autoReplyEnabled          Boolean  @default(true)
+  emergencyStop             Boolean  @default(false)
+  online247Enabled          Boolean  @default(true)
+  maxRepliesPerHour         Int      @default(15) // Hard cap max 15/hr
+  minDelayMs                Int      @default(4000) // 4s
+  maxDelayMs                Int      @default(9000) // 9s
+  minTypingMs               Int      @default(2000) // 2s
+  maxTypingMs               Int      @default(4000) // 4s
+  minOnlineIntervalSec      Int      @default(240)  // 4 minutes
+  maxOnlineIntervalSec      Int      @default(420)  // 7 minutes
+  replyCooldownMode         String   @default("NEVER") // NEVER | AFTER_24H | AFTER_7D | AFTER_1H
+  ignoreGroupsAndChannels   Boolean  @default(true)
+  ignoreBotsAndService      Boolean  @default(true)
+  ignoreForwardedMessages   Boolean  @default(true)
+  updatedAt                 DateTime @updatedAt
+}

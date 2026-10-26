@@ -1,0 +1,12 @@
+services:
+  safereply-userbot:
+    build: .
+    container_name: safereply-mtproto-24-7
+    restart: always
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+      - LOCAL_ENCRYPTION_SECRET=safereply-aes256-local-vault-secret-key-2026
+    volumes:
+      - ./data:/app/data
